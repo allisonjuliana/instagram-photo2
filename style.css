@@ -1,0 +1,64 @@
+{
+    border: 1px dashed red;
+    min-height: 10px
+}
+body{
+    background:rgba(164, 161, 161, 0.297);
+}
+.tittle{
+    background: white;
+    width: auto;
+    height:80px;
+    align-content:center;
+}
+.fecha{
+    color: rgb(218, 208, 208);
+}
+.general{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    text-align:center;
+}
+.caja{
+
+    background: white;
+    margin-top: 50px;
+}
+.instagram{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 375px;
+    height: 340px;
+    border:0px;
+    background: white;
+    margin: 0px;
+}
+.instagram-header{
+    display: flex;
+    justify-content:space-between;
+    width: 375px;
+    height: 40px;
+    margin-bottom: auto;
+}
+.instagram-body{
+    width: 375px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    display: flex;
+    /* justify-content:center; */
+    height: 250px;
+    margin:0;
+    padding: 0px;
+}
+.instagram-footer{
+    margin-top: 40px;
+    width: 375px;
+}
